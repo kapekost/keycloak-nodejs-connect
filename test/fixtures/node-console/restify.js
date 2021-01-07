@@ -53,8 +53,7 @@ function NodeApp () {
   };
 
   this.build = function (kcConfig, params) {
- 
-    params = params || { };
+    params = params || {};
     var keycloak = new Keycloak(params, kcConfig);
 
     // A normal un-protected public URL.
