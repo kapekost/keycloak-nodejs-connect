@@ -113,7 +113,6 @@ function NodeApp () {
         })
         .catch(next);
     });
-
   };
 }
 
