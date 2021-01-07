@@ -2,7 +2,6 @@
 
 const Keycloak = require('../../../');
 const bodyParser = require('body-parser');
-const hogan = require('hogan-express');
 const restify = require('restify');
 const cookieParser = require('cookie-parser');
 const enableDestroy = require('server-destroy');
